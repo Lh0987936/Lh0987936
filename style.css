@@ -28,7 +28,17 @@ nav {
     font-size: 3vw;
     background-color: #262726;
 }
-
+a {
+    color: aqua;
+    text-decoration: none;
+}
+a:visited {
+    color: var(--Primarycolor);
+}
+a:hover {
+    text-decoration: underline;
+    color: var(--Secondarycolor);
+}
 /* Home */
 #Contact,
 .Left {
