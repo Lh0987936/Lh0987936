@@ -143,6 +143,16 @@ ul {
     #TTRPG p,#Reading p,#Gamin p {
         font-size: 12px;
     }
+    /* Project */
+    table {
+        height: 75vh;
+        font-size: 8px;
+        margin: 0;
+        
+    }
+    th,td {
+       width: 10%; 
+    }
 }
 
 @media screen and (min-width: 1043px) {
