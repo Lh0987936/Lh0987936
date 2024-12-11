@@ -101,6 +101,10 @@ td {
     text-align: center;
 }
 
+tr:hover {
+    background-color: var(--Secondarycolor);
+}
+
 table {
     margin-left: auto;
     margin-right: auto;
