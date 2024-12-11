@@ -1,0 +1,153 @@
+:root {
+    --Primarycolor: #f700ff;
+    --fontcolor: aliceblue;
+    --Secondarycolor: #307351;
+}
+
+/* Universal */
+body {
+    background-color: #141313;
+    color: aliceblue;
+}
+
+h1 {
+    color: var(--Primarycolor);
+    font-family: "Iceberg", sans-serif;
+}
+
+hr {
+    color: aliceblue;
+}
+
+nav {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    height: 5vh;
+    width: 45vw;
+    font-size: 3vw;
+    background-color: #262726;
+}
+
+/* Home */
+#Contact,
+.Left {
+    width: 45vw;
+}
+
+fieldset {
+    background-color: rgba(128, 128, 128, 0.342);
+}
+
+.posright {
+    position: absolute;
+    width: 40vw;
+    height: 80vh;
+    top: 20vh;
+    right: 0px;
+    margin-left: 25px;
+}
+
+/* Hobbies */
+#TTRPG,
+#Reading,
+#Gamin {
+    background-color: var(--Secondarycolor);
+    height: 100vh;
+}
+
+#TTRPG h3, #Reading h3, #Gamin h3 {
+    font-family: "Iceberg", sans-serif;
+    text-align: center;
+}
+
+#TTRPG {
+    grid-column: 1/2;
+}
+
+#Reading {
+    grid-column: 3/4;
+}
+
+#TTRPG p,#Reading p,#Gamin p {
+    padding: 5px;
+    font-size: 25px;
+}
+
+#Gamin {
+    grid-column: 5/6;
+}
+
+.HobbiePics {
+    width: 100%;
+    height: 25vh;
+}
+
+/* Project */
+table,
+th,
+td {
+    border: 2px solid chartreuse;
+    text-align: center;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    color: chartreuse;
+    width: 100vw;
+    height: 45vh;
+    border-collapse: collapse;
+    font-size: 110%;
+}
+
+.Thighlight {
+    background-color: rgb(49, 49, 49);
+
+}
+
+/* Classes */
+details {
+    font-size: 65px;
+    color: var(--Primarycolor);
+    background-color: #262726;
+    padding-bottom: 5px;
+}
+.subtitle {
+    font-size: 24px;
+}
+ul {
+    font-size: 16px;
+}
+/* MediaQuery */
+@media screen and (max-width: 800px) {
+    /* Universal */
+    nav {
+        text-align: center;
+        width: 45vw;
+        height: 3vh;
+        margin-bottom: 5px;
+    }
+    /* Home */
+    .posright {
+        position: absolute;
+        top: 20vh;
+        right: 25px;
+        width: 25vw;
+        height: 25vh;
+    }
+    /* Hobbies */
+    #TTRPG, #Reading, #Gamin {
+        height: 75vh;
+    }
+    #TTRPG p,#Reading p,#Gamin p {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 1043px) {
+    /* Universal */
+    nav {
+        font-size: 25px;
+    }
+}
